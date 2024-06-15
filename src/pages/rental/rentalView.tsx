@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './rental.css'
 
+
 function App() {
   
   return (
