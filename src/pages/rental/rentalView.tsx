@@ -32,8 +32,7 @@ function RentalView() {
         await UpdateApi.delete(id);
         setRentals(rentals.filter(rental => rental.EquipmentId !== id));
     }
-
-  console.log(rentals);
+    
   return (
     <div>        
         <button className="btn btn-primary" onClick={() => onCreate()}>Create</button>
