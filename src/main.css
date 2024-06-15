@@ -32,6 +32,16 @@ header {
   margin-top: 30px;
 }
 
+footer {
+  display: block;  
+  width: 100%;
+  padding: 5px;
+  background-color: lightgray;  
+  border-radius: 8px;  
+  position: fixed;
+  bottom: 0;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
