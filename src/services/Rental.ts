@@ -1,21 +1,21 @@
 import { UrlApi } from './BaseUrl'
 import { AxiosResponse } from 'axios';
 import { httpInstance } from './Http'
-import IRental from '../types/IRental';
+import IEquipment from '../types/IEquipment';
 
-const url = `${UrlApi}/Rental`
+const url = `${UrlApi}/Equipment`
 
 export const UpdateApi = {
-    getAll: async (): Promise<AxiosResponse<IRental[]>> => {
+    getAll: async (): Promise<AxiosResponse<IEquipment[]>> => {
         return await httpInstance().get(url);
     },
-    get: async (id: number): Promise<AxiosResponse<IRental>> => {
+    get: async (id: number): Promise<AxiosResponse<IEquipment>> => {
         return await httpInstance().get(`${url}/${id}`);
     },
-    post: async (data: any): Promise<AxiosResponse<IRental>> => {
+    post: async (data: any): Promise<AxiosResponse<IEquipment>> => {
         return await httpInstance().post(url, data);
     },
-    put: async (id: number, data: any): Promise<AxiosResponse<IRental>> => {
+    put: async (id: number, data: any): Promise<AxiosResponse<IEquipment>> => {
         return await httpInstance().put(`${url}/${id}`, data);
     },
     delete: async (id: number): Promise<AxiosResponse<void>> => {
