@@ -1,3 +1,21 @@
+## Project Title: Equipment Management App
+### Developed by: Guilherme Gomes Zucco
+
+## Description:
+A simple web application for managing a list of equipment, demonstrating skills in React, Node, Vite, Routes Html, CSS, TypeScrypt, Axios.
+
+## Technologies Used:
+- React
+- Node
+- Vite
+- HTML
+- CSS
+- TypeScrypt
+- Axios
+- Routes
+- Markdown
+- Git
+
 ## Setup and Run Frontend React Application
 
 1. **Download the files from Github**
